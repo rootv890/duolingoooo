@@ -13,7 +13,7 @@ DUOLINGO CLONE
 | Learn Page Wrappers     | Sticky Right Sidebar   | DONE       | 16 Oct 2024 |
 | Drizzle & Neon          | Drizzle & Neon Setup   | DONE       | 16 Oct 2024 |
 | Courses Page            | Course Fetch Setup     | DONE       | 16 Oct 2024 |
-| User Progress           |                        | UNDER DEV! |             |
+| User Progress           | User Progress Relation | DONE!      | 16 Oct 2024 |
 | Seed Script             |                        | UNDER DEV! |             |
 | Schema                  |                        | UNDER DEV! |             |
 | Units                   |                        | UNDER DEV! |             |
