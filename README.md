@@ -1,33 +1,33 @@
 DUOLINGO CLONE
 
-| Title                   | Commit                 | Status     | Date        |
-| :---------------------- | :--------------------- | :--------- | :---------- |
-| Intro                   | Project Setup 🛠️       | DONE!      | 15 Oct 2024 |
-| Setup                   | ShadCn Setup           | DONE!      | 15 Oct 2024 |
-| Buttons                 | Button Library 🔘      | DONE!      | 15 Oct 2024 |
-| Marketing Page          | Layout ╉               | DONE!      | 15 Oct 2024 |
-| Authentication          | Clerk JS               | DONE!      | 15 Oct 2024 |
-| Footer                  | FOOTER FLAGS           | DONE!      | 16 Oct 2024 |
-| Main Layout             | Main Layout ╉ Skeleton | DONE!      | 16 Oct 2024 |
-| Sidebar                 | Left Sidebar           | DONE       | 16 Oct 2024 |
-| Learn Page Wrappers     | Sticky Right Sidebar   | DONE       | 16 Oct 2024 |
-| Drizzle & Neon          | Drizzle & Neon Setup   | DONE       | 16 Oct 2024 |
-| Courses Page            | Course Fetch Setup     | DONE       | 16 Oct 2024 |
-| User Progress           | User Progress Relation | DONE!      | 16 Oct 2024 |
-| Seed Script             | Initial Database Data  | UNDER DEV! |             |
-| Schema                  | Rest of the Schema     | UNDER DEV! |             |
-| Units                   |                        | UNDER DEV! |             |
-| Lesson Header           |                        | UNDER DEV! | s           |
-| Exit Modal              |                        | UNDER DEV! |             |
-| Challenge Cards         |                        | UNDER DEV! |             |
-| Challenge Actions       |                        | UNDER DEV! |             |
-| Challenge Finish Screen |                        | UNDER DEV! |             |
-| Challenge Practice      |                        | UNDER DEV! |             |
-| Shop                    |                        | UNDER DEV! |
-| Stripe                  |                        | UNDER DEV! |
-| Details                 |                        | UNDER DEV! |
-| Admin                   |                        | UNDER DEV! |
-| Deployment              |                        | UNDER DEV! |
+| Title                   | Commit                         | Status     | Date        |
+| :---------------------- | :----------------------------- | :--------- | :---------- |
+| Intro                   | Project Setup 🛠️               | DONE!      | 15 Oct 2024 |
+| Setup                   | ShadCn Setup                   | DONE!      | 15 Oct 2024 |
+| Buttons                 | Button Library 🔘              | DONE!      | 15 Oct 2024 |
+| Marketing Page          | Layout ╉                       | DONE!      | 15 Oct 2024 |
+| Authentication          | Clerk JS                       | DONE!      | 15 Oct 2024 |
+| Footer                  | FOOTER FLAGS                   | DONE!      | 16 Oct 2024 |
+| Main Layout             | Main Layout ╉ Skeleton         | DONE!      | 16 Oct 2024 |
+| Sidebar                 | Left Sidebar                   | DONE       | 16 Oct 2024 |
+| Learn Page Wrappers     | Sticky Right Sidebar           | DONE       | 16 Oct 2024 |
+| Drizzle & Neon          | Drizzle & Neon Setup           | DONE       | 16 Oct 2024 |
+| Courses Page            | Course Fetch Setup             | DONE       | 16 Oct 2024 |
+| User Progress           | User Progress Relation         | DONE!      | 16 Oct 2024 |
+| Seed Script             | Initial Database Data          | DONE!      | 17 Oct 2024 |
+| Schema                  | Rest of the Schema             | DONE!      | 18 Oct 2024 |
+| Units                   | Units                          | DONE!      | 22 Oct 2024 |
+| Lesson Header           | Lesson Header with Progressbar | DONE!      | 22 Oct 2024 |
+| Exit Modal              |                                | UNDER DEV! |             |
+| Challenge Cards         |                                | UNDER DEV! |             |
+| Challenge Actions       |                                | UNDER DEV! |             |
+| Challenge Finish Screen |                                | UNDER DEV! |             |
+| Challenge Practice      |                                | UNDER DEV! |             |
+| Shop                    |                                | UNDER DEV! |
+| Stripe                  |                                | UNDER DEV! |
+| Details                 |                                | UNDER DEV! |
+| Admin                   |                                | UNDER DEV! |
+| Deployment              |                                | UNDER DEV! |
 
 Journal
 Day 01
