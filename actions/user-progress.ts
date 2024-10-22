@@ -8,13 +8,15 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
 export const upsertUserProgress = async (courseId: number) => {
+  // Auth Check!
   const { userId } = await auth();
   const user = await currentUser();
 
   if (!userId || !user) {
-    throw new Error("UnAuhtorised!");
+    throw new Error("Unauthorized!!");
   }
 
+  // Course Check!
   const course = await getCourseById(courseId);
 
   if (!course) {

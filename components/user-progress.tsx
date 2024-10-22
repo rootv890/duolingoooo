@@ -3,12 +3,10 @@ import { Button } from "./ui/button";
 import Flag from "react-flagpack";
 import Image from "next/image";
 import { FaInfinity } from "react-icons/fa6";
+import { courses } from "@/db/schema";
 
 type Props = {
-  activeCourse: {
-    imageSrc: string;
-    title: string;
-  }; // TODO replace with DB types
+  activeCourse: typeof courses.$inferSelect;
   hearts: number;
   points: number;
   hasActiveSubscription: boolean;

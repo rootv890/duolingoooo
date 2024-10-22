@@ -14,10 +14,10 @@ DUOLINGO CLONE
 | Drizzle & Neon          | Drizzle & Neon Setup   | DONE       | 16 Oct 2024 |
 | Courses Page            | Course Fetch Setup     | DONE       | 16 Oct 2024 |
 | User Progress           | User Progress Relation | DONE!      | 16 Oct 2024 |
-| Seed Script             |                        | UNDER DEV! |             |
-| Schema                  |                        | UNDER DEV! |             |
+| Seed Script             | Initial Database Data  | UNDER DEV! |             |
+| Schema                  | Rest of the Schema     | UNDER DEV! |             |
 | Units                   |                        | UNDER DEV! |             |
-| Lesson Header           |                        | UNDER DEV! |             |
+| Lesson Header           |                        | UNDER DEV! | s           |
 | Exit Modal              |                        | UNDER DEV! |             |
 | Challenge Cards         |                        | UNDER DEV! |             |
 | Challenge Actions       |                        | UNDER DEV! |             |

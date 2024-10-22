@@ -42,6 +42,12 @@ function List({ courses, activeCourseId }: Props) {
           disabled={pending}
         />
       ))}
+
+      <div className="h-full border-2 rounded-xl border-b-4  cursor-pointer active:border-b-2 justify-center flex  flex-col jc items-center p-3 pb-6 min-h-[217px] min-w-[200px] mx-auto">
+        <h1 className="text-balance text-xl text-neutral-800 text-center">
+          More languages coming soon...
+        </h1>
+      </div>
     </div>
   );
 }
