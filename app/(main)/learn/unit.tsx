@@ -1,5 +1,4 @@
 import { lessons, units } from "@/db/schema";
-import { boolean } from "drizzle-orm/mysql-core";
 import UnitBanner from "./unit-banner";
 import LessonButton from "./lesson-button";
 
@@ -19,19 +18,19 @@ type Props = {
   activeLessonPercentage: number;
 };
 
-function Unit({
-  activeLesson,
-  activeLessonPercentage,
-  description,
+const Unit = ({
   id,
-  lessons,
   order,
   title,
-}: Props) {
+  description,
+  lessons,
+  activeLesson,
+  activeLessonPercentage,
+}: Props) => {
   return (
     <>
       <UnitBanner title={title} description={description} />
-      <div className="flex flex-col items-center relative">
+      <div className="flex items-center flex-col relative">
         {lessons.map((lesson, index) => {
           const isCurrent = lesson.id === activeLesson?.id;
           const isLocked = !lesson.completed && !isCurrent;
@@ -42,15 +41,15 @@ function Unit({
               id={lesson.id}
               index={index}
               totalCount={lessons.length - 1}
-              percentage={activeLessonPercentage}
               current={isCurrent}
               locked={isLocked}
+              percentage={activeLessonPercentage}
             />
           );
         })}
       </div>
     </>
   );
-}
+};
 
 export default Unit;
